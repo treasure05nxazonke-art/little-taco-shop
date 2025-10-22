@@ -1,0 +1,46 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+.mag {
+  color: blue;
+  text-decoration: underline;
+}
+nav a {
+  color: blue;
+  text-decoration: underline; 
+}
+
+table td.centered {
+  font-weight: normal !important; /* forces normal weight */
+  text-align: center !important;  /* ensures it’s centered */
+}
+.footer-text {
+  font-weight: normal;  /* removes bold */
+  text-align: left;     /* keeps it left-aligned */
+}
+dl {
+    font-weight: normal;
+  }
+
+  dt {
+    font-weight: normal; /* removes bold */
+  }
+h4{
+    font-weight: normal;
+}
